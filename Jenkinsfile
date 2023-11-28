@@ -19,7 +19,7 @@ pipeline {
             steps{
                 script{
                     git credentials : 'github',
-                    url: 'githuburl',
+                    url: 'https://github.com/RAM28EC/GitOps-Argo-ci.git',
                     branch: 'main'
                 }
             }
